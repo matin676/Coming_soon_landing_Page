@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Coming_soon_landing_Page/static/css/main.a0884481.css",
+    "main.js": "/Coming_soon_landing_Page/static/js/main.f2c66fac.js",
+    "index.html": "/Coming_soon_landing_Page/index.html",
+    "main.a0884481.css.map": "/Coming_soon_landing_Page/static/css/main.a0884481.css.map",
+    "main.f2c66fac.js.map": "/Coming_soon_landing_Page/static/js/main.f2c66fac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0884481.css",
+    "static/js/main.f2c66fac.js"
+  ]
+}
