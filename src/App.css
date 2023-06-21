@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Libre Franklin", sans-serif;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  top: 2rem;
+  height: 80vh;
+}
+
+.logo {
+  width: 75px;
+}
+
+h2 {
+  color: hsl(209, 33%, 12%);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem;
+  margin-top: 1.5rem;
+}
+
+h2 span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+}
+
+p {
+  font-size: 13px;
+  color: hsl(209, 33%, 12%);
+  font-weight: 400;
+}
+
+form {
+  margin: 1rem;
+  margin-top: 1.5rem;
+}
+
+input {
+  width: 250px;
+  height: 2.5rem;
+  border: 0.5px solid hsl(223, 100%, 88%);
+  border-radius: 25px;
+  padding: 12px;
+  font-weight: lighter;
+  margin-right: 0.5rem;
+}
+
+input::placeholder {
+  font-size: 12px;
+  color: hsl(223, 100%, 88%);
+  opacity: 0.8;
+}
+
+input:focus {
+  border: 0.5px solid hsl(223, 100%, 88%);
+  opacity: 0.8;
+  outline: none;
+}
+
+.input:focus {
+  border: 0.5px solid red;
+}
+
+.message {
+  position: fixed;
+  font-size: 10px;
+  color: red;
+  top: 14.5rem;
+  left: 36rem;
+  display: none;
+}
+
+.invisible {
+  display: inherit;
+}
+
+.button {
+  width: 150px;
+  height: 2.5rem;
+  border: none;
+  border-radius: 25px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  background-color: hsl(223, 87%, 63%);
+  color: #fff;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: hsl(224, 83%, 77%);
+}
+
+.illustration {
+  width: 400px;
+  height: 250px;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+a {
+  margin: 5px;
+  color: #4f7df3;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  background-color: transparent;
+  border: 0.5px solid hsl(223, 100%, 88%);
+  border-radius: 50%;
+  color: hsl(223, 87%, 63%);
+}
+
+.icon:hover {
+  width: 35px;
+  height: 35px;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0.5;
+  bottom: 0;
+}
